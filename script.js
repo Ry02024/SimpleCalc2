@@ -8,7 +8,7 @@ document.getElementById('pushForm').addEventListener('submit', async function(ev
     const contentBase64 = btoa(unescape(encodeURIComponent(content)));
 
     const filePath = 'calculation_result.txt';
-    const repoUrl = `https://api.github.com/repos/Ry02024/SimpleCalc/contents/${filePath}`;
+    const repoUrl = `https://api.github.com/repos/Ry02024/SimpleCalc2/contents/${filePath}`;
 
     try {
         // まず、既存ファイルのSHAを取得
