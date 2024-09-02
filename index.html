@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Token and Calculation Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>GitHub Token and Calculation Checker</h1>
 
+    <h2>1. GitHubトークンの確認</h2>
+    <form id="tokenForm">
+        <input type="password" id="token" placeholder="GitHubトークンを入力" required>
+        <button type="submit">トークンを確認</button>
+    </form>
+    <div id="tokenResponse"></div>
+
+    <h2>2. 計算式の確認</h2>
+    <form id="calcForm">
+        <input type="text" id="expression" placeholder="計算式 (例: 2 + 3)" required disabled>
+        <button type="submit" disabled>計算を確認</button>
+    </form>
+    <div id="calcResponse"></div>
+
+    <h2>3. GitHubにプッシュ</h2>
+    <form id="pushForm">
+        <input type="text" id="result" placeholder="計算結果 (例: 5)" required disabled>
+        <button type="submit" disabled>GitHubにプッシュ</button>
+    </form>
+    <div id="pushResponse"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
