@@ -1,1 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not([disabled]) {
+    background-color: #218838;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+div {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
